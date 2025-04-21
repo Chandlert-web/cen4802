@@ -1,2 +1,4 @@
 # cen4802
-GitHub Repo that will be used throughout the spring semester
+Welcome to my Github repository for CEN4802
+Name: Chandler Thomas
+This repo will contain all of my class assignments and code. 
