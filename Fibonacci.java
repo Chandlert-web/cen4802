@@ -1,15 +1,19 @@
 public class Fibonacci {
-
+     //Javadoc Comments
+     // Calculates the nth term of the Fibonacci sequence using recursion.
+     // @param n the position in the Fibonacci sequence (must be >= 0)
+     // @return the nth Fibonacci number
     public static int fibonacci(int n) {
-        if (n <= 0) return 0;
-        if (n == 1) return 1;
-
-        return fibonacci(n-1) + fibonacci(n-2);
+        if (n <= 1) {
+            return n;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         int n = 10;
         int result = fibonacci(n);
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
     }
 }
+
